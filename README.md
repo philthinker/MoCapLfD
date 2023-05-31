@@ -8,22 +8,29 @@ Haopeng Hu
 
 ![robot](https://github.com/philthinker/SAMP/blob/main/panda.jpg)
 
-## Greengrape
+## Overview
+
+### Greengrape
 
 The MATLAB codes for learning the policies from the demonstration data.
 
 - The codes are tested on MATLAB R2020b.
 - Run "UNCORK.m" once you set "Greengrape" as your MATLAB workspace.
 
-### Demos
+### ActionRecognition
 
-- main_A.m: Learning the policies of Object A.
-- main_B.m: Learning the policies of Object B.
-- main_C.m: Learning the policies of Object C.
+The Python codes and the data set for the action recognition network.
 
-Runing these codes may take seconds.
+### Data
 
-## Grape
+Demo data.
+
+- "ObjectA_MoCap.mat": The demo data for the MATLAB demo of Object A.
+- "ObjectB_MoCap.csv": The demo data for the MATLAB demo of Object B.
+
+The action recognition results are already implemented.
+
+### Grape
 
 The C++ codes for controlling the robot.
 
@@ -31,9 +38,12 @@ The C++ codes for controlling the robot.
 - There is an demo file "Toys_Grape6.cpp".
 - Build it with CMake.
 
-## Data
+## Demos
 
-Demo data.
+- main_A_MoCap.m: Learning the policies of Object A.
+- main_B_MoCap.m: Learning the policies of Object B.
 
-- "main_C.mat": The demo data for the MATLAB demo.
-- "main_C.csv": The demo data for the C++ demo.
+Runing these codes may take seconds.
+
+
+
